@@ -1,0 +1,284 @@
+@font-face {
+    font-family: vegur;
+    src: url("Vegur-R.otf");
+}
+
+body {
+    font-family: arial;
+    font-size: 100%;
+    color: #a1a1a1;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.extra {
+    height: auto !important;
+    min-height: 100%;
+    margin: 0px auto -40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main {
+    width: 960px;
+    padding: 0;
+    margin: 0px auto;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+/********** header **********/
+
+header {
+    min-height: 189px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-1 {
+    width: 100%;
+    background: url(../images/bg-top.jpg) no-repeat center top; /* "center" for the x-axis position, and "top" for the y-axis */
+    min-height: 131px;
+}
+
+h1 {
+    padding: 40px 0 0 0;
+    margin: 0;
+    position: relative;
+}
+
+h1 a {
+    margin: 0px auto;
+    display: block;
+    width: 246px;
+    height: 62px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+    text-indent: -5000px;
+}
+
+.menu-bg {
+    background: url(../images/menu-bg.jpg) no-repeat center top;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding: 10px 0 0px 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    background: url(../images/menu-li-line.png) no-repeat left top;
+    /*padding: 0px 33px 0 34px;*/
+    padding: 5px 33px 0 34px;
+}
+
+.menu li a {
+    display: inline-block;
+    font-size: 23px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    padding: 0;
+    color: #fff;
+    letter-spacing: -1px;
+    font-family: vegur;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu li a:hover, .menu li a.current { color: #93ceee; }
+
+/********** content **********/
+
+.content {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-2 {
+    width: 100%;
+    background: url("../images/bg-2-tail.gif") repeat center top;
+    border-radius: 3px;
+}
+
+.content-padding-1 { padding: 18px 0 37px 0; }
+
+.padding-grid-1 { padding: 0 0 0 28px; }
+.padding-grid-2 { padding: 0 0 0 29px; }
+
+.time {
+    display: block;
+    width: 55px;
+    height: 54px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    margin-right: 16px;
+}
+
+.time-set-1 { background: url("../images/marker-text-1.png") no-repeat 1px top; }
+.time-set-2 { background: url("../images/marker-text-2.png") no-repeat 1px top; }
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.style-img { 
+    border: 1px solid #3b3b3b; 
+    padding: 1px;
+}
+
+.fleft { float: left; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********  **********/
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.extra-wrap {
+    overflow: hidden;
+}
+
+.indent-bot1 {
+    /* .indent-bot1's function: gives margins between these divs and their paragraphs */
+    margin-bottom: 23px;
+}
+
+img { vertical-align: top; }
+
+a {
+    color: #93ceee;
+    outline: none;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.link:hover { text-decoration: underline; }
+
+.letter { letter-spacing: -1px; }
+
+.text-1, .text-3 {
+    font-size: 25px;
+    line-height: 2em;
+    display: block;
+    color: #fff;
+    margin-top: -6px;
+    padding-left: 2px;
+    /* we're NOT gonna give font-family here, because we have to apply this style on many other text-2, text-3, and other texts, so that's why we'll code it in a separate block */
+}
+
+.text-2, .text-4 {
+    font-size: 20px;
+    line-height: 2em;
+    display: block;
+    color: #a1a1a1;
+    margin-top: -29px;
+    letter-spacing: -1px;
+    /* we're NOT gonna give font-family here, because we have to apply this style on many other text-2, text-3, and other texts, so that's why we'll code it in a separate block */
+}
+
+.text-1 { 
+    font-family: vegur;
+    font-weight: 700;
+    text-shadow: 1px 1px #a1a1a1; /* 1px for both x and y axis */
+}
+
+.text-2 { 
+    font-family: vegur;
+    font-weight: 400;
+    text-shadow: 1px 1px #a1a1a1; /* 1px for both x and y axis */
+}
+
+.text-3 { 
+    font-family: vegur;
+    font-weight: 700;
+    text-shadow: 1px 1px #4f9dd1; /* 1px for both x and y axis */
+}
+
+.text-4 { 
+    font-family: vegur;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 25px;
+    line-height: 2em;
+    margin: 0 0 9px 0;
+    color: #93ceee;
+}
+
+h3 strong {
+    color: #fff;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 2em;
+    color: #fff;
+    letter-spacing: -1px;
+    margin-bottom: -8px;
+}
+
+h4 a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+h4 a:hover { color: #93ceee; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
